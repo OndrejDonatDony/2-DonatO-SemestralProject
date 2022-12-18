@@ -39,12 +39,12 @@ public class semestralniPrace {
        System.out.println("0. Konec");
     }
 
-    private static void semeUloha() {
+    private static void semeUloha() { //semestralni uloha 2
         SemestralniPraceUloha2 obj1 = new SemestralniPraceUloha2();
         obj1.konzole();
     }
 
-    private static void vanProj() {
+    private static void vanProj() { //vanocni uloha
         VanocniProjekt obj2 = new VanocniProjekt();
         obj2.menu();
     }
