@@ -5,8 +5,10 @@
 package SemestralniPrace;
 
 /**
- *
+ * Úloha 2
+ * Nejdelší společný úsek každé zadané dvojice posloupností
  * @author ondrej.donat
+ * 25.11.2022
  */
 
 
