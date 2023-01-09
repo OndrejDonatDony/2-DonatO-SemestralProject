@@ -47,7 +47,12 @@ public class SemestralniPraceUloha2 {
         }
     }
 
-    //vytvareni pole ukoncena zapornym cislem
+    /**
+     * vytvareni dynamickeho pole celych kladnych cisel ukoncena celym zapornym cislem
+     * spec. pripad:
+     * Pokuď je argument string nebo char tak vysledkem error
+     * @return NacitaniPosloupnosti - vraci pole bez zaporneho cisla
+     */
     public static int[] NacitaniPosloupnosti() {
 
         //deklarace dynamickeho pole
@@ -85,7 +90,12 @@ public class SemestralniPraceUloha2 {
         return finalPosloupnost;
     }
 
-    //nejdelsi spolecny usek
+    /**
+     * Vraci nejdelsi spolecny usek obou argumentu typu int.
+     * @param a - 1. pole typu int
+     * @param a - 2. pole typu int
+     * @return delka - nejdelsi spolecny usek poli a,b
+     */
     public static int delka(int[] a, int[] b) {
 
         int nejdelsiUsek = 0;
